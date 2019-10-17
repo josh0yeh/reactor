@@ -15,3 +15,7 @@ Cases are organized in suites, which also manage the execution environment.
 1. Clone this project
 2. Open it in Intellij
 3. Run main class src/main/java/com/tascape/reactor/suite/JUnit4Suite.java
+4. In this class src/main/java/com/tascape/reactor/task/JUnit4Case.java#L141, 
+   update parameter = “3” to parameter = “100"
+5. Run com/tascape/reactor/suite/JUnit4Suite.java again
+6. check your local folder for logs ~/.reactor/logs/
