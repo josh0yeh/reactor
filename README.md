@@ -10,3 +10,8 @@ Cases are organized in suites, which also manage the execution environment.
     <version>1.2.0</version>
 </dependency>
 ```
+
+# Setup
+1. Clone this project
+2. Open it in Intellij
+3. Run main class src/main/java/com/tascape/reactor/suite/JUnit4Suite.java
